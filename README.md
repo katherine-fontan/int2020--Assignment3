@@ -6,6 +6,6 @@ CPSC 298
 
 Assignment3 files:
 
-header.cpp
+header.h
 class.cpp
 main.cpp
