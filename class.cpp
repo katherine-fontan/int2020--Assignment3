@@ -26,10 +26,24 @@ int Pet::getPetAge(){
   return petAge;
 }
 
-string Pet:: getPetType(){
+string Pet::getPetType(){
   return petType;
 }
 
 double Pet::getPetWeight(){
   return petWeight;
+}
+
+//mutators
+void Pet::setPetName(string name){
+  petName = name;
+}
+void Pet::setPetAge(int age){
+  petAge = age;
+}
+void Pet::setPetType(string type){
+  petType = type;
+}
+void Pet::setPetWeight(double weight){
+  petWeight = petWeight;
 }
