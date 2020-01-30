@@ -13,7 +13,7 @@ type ([‘dog’, ‘cat’]) (string) and weight (double).
 #include "header.h"
 using namespace std;
 
-int main (int argv, char **argc){
+int main (int argc, char **argv){
   //create 2 instances of Pet
   Pet *pet1 =  new Pet("Luna", 4, "dog", 40);
   Pet *pet2 = new Pet ("Simba", 1, "cat", 20);
